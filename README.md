@@ -38,16 +38,16 @@
 本仓库根目录**就是** skill 目录，克隆或下载后放到宿主的 skills 目录即可。
 
 ```bash
-git clone https://github.com/yunghf/opensource-x-skill.git
+git clone https://github.com/yunghf/opensource-analysis-skill.git
 
 # 通用（任何支持 SKILL.md 约定的 Agent）
-cp -R opensource-x-skill ~/.<your-agent>/skills/opensource-x
+cp -R opensource-analysis-skill ~/.<your-agent>/skills/opensource-x
 
 # WorkBuddy
-cp -R opensource-x-skill ~/.workbuddy/skills/opensource-x
+cp -R opensource-analysis-skill ~/.workbuddy/skills/opensource-x
 
 # Claude Code
-cp -R opensource-x-skill ~/.claude/skills/opensource-x
+cp -R opensource-analysis-skill ~/.claude/skills/opensource-x
 ```
 
 **环境要求**：`python3`（拉取源码、跑校验）。可选：`node`（HTML 内嵌 JS 语法校验）、`cloc` / `scc`（规模统计）、`git`（角度二演化分析）。
@@ -93,7 +93,7 @@ HTML 报告零外部依赖，含侧栏 TOC + 滚动高亮 + 代码高亮 + 可�
 ## 目录结构
 
 ```
-opensource-x-skill/
+opensource-analysis-skill/
 ├── SKILL.md                     # 入口：触发条件、工作流、“铁律”、宿主能力映射
 ├── references/
 │   ├── main-workflow.md         # 主流程 Step 0~8 完整规范
