@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 源码拉取与分析的临时产物
+_fetch/
+analysis/
+dist/
+
+# 系统与编辑器
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# 本地环境
+.env
+.venv/
