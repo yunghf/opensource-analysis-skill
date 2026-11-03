@@ -1,4 +1,4 @@
-# OpenSource-X Skill
+# OpenSource-analysis Skill
 
 **把任意 GitHub / Gitee 仓库变成一张能讲课的图。** 先读懂它怎么组织，再讲清它为什么这么组织，最后回答它值不值得用、从哪下手改。
 
@@ -133,4 +133,4 @@ opensource-analysis-skill/
 
 [MIT](LICENSE)。可自由用于商业与非商业场景，保留版权声明即可。
 
-> 本项目由 WorkBuddy 专家 **loongwoong/OpenSource-X** 的完整能力打包而成，方法论与全部参考文档随仓库一同发布，可独立于原专家运行。
+> by loongwoong
