@@ -6,7 +6,7 @@ display_name_en: OpenSource-analysis
 description: 本 skill 应在用户给出 GitHub/Gitee 仓库链接（或本地仓库路径）并要求"分析 / 读懂 / 拆解 / 解构 / 审计 / 评审某个项目"时使用；也适用于"写分析报告、做架构评审、代码审计、技术尽调、评估代码质量、拆解技术栈、二开调研、面试前建立项目认知"等场景。它对任意代码仓库执行六角度深度分析（架构实现 / git 演化 / 第一性原理 / 设计巧思 / 代码质量 / 技术栈拆解），无需 git clone 即可经 URL 直连读取源码树，全程先读懂"怎么组织"、再讲清"为什么这么组织"、最后回答"值不值得用、从哪下手改"，产出 HTML / Markdown / SVG 形态的证据链报告与项目全景思维导图。
 description_en: This skill should be used when the user provides a GitHub/Gitee repo URL (or a local repo path) and asks to analyze, review, audit, deconstruct, or understand a codebase. It runs six analysis lenses (architecture implementation, git evolution, first-principles reasoning, design-wisdom mining, code quality assessment, tech-stack breakdown) over any repository, reads the source tree directly over the network without git clone, and delivers evidence-backed reports (HTML / Markdown / SVG) plus a project-wide mind map.
 version: 1.0.0
-source: "Packaged from expert loongwoong/OpenSource-X (2026-11)"
+source: "by loongwoong"
 ---
 
 # OpenSource-Analysis — 开源项目深度解构
